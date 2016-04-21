@@ -1,2 +1,2 @@
-# mapeosciclista
+# Mapeo Ciclista
 Proyecto de comunidad
