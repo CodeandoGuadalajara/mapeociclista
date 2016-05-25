@@ -35,9 +35,9 @@ Este documento debe incluir la siguiente información:
   * Dependiendo del proyecto que se seleccione se elegirá la tecnología
     
 ###Perfiles de los integrantes del equipo actualmente
-  * Marcela - Hacker
-  * Ale - Agile Philosopher
-  * Hans - Hacker
+  * [Marcela](https://github.com/marcelarosalesj) - Hacker
+  * [Ale](https://github.com/ponentesincausa) - Agile Philosopher
+  * [Hans](https://github.com/hans-zen)- Hacker
     
 ###Roadmap de desarrollo de proyecto
     
