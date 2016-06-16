@@ -10,11 +10,10 @@ streamOfTweets.on('readable', function() {
   var time, tweet, dictionary, newdict;
   tweet = streamOfTweets.read();
   time = new Date(tweet.time * 1000);
-  dictionary = "choque";
-  newdict = ["bici","bicicleta"," ciclista", "ciclo estación"];
+  dict = ["bici","bicicleta"," ciclista", "ciclo estación"];
 
   for (var i = 0; i < newdict.length; i++) {
-    if(tweet.text.indexOf(newdict[i]) != -1){
+    if(tweet.text.indexOf(dict[i]) != -1){
       console.log([
         "tweet del día: ",
         time.toLocaleString(),
@@ -23,17 +22,6 @@ streamOfTweets.on('readable', function() {
       ].join(''));
     }
   }
-
-
-/*  if(tweet.text.indexOf(dictionary) != -1){
-
-    console.log([
-      "tweet del día: ",
-      time.toLocaleDateString(),
-      " tweet:, ",
-      tweet.text,
-    ].join(''));
-  }*/
 
 
 
