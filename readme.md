@@ -1,5 +1,20 @@
-###Scrapper "visual" de cuentas de twitter en búsqueda de tweets que contengan palabras clave definidas en un array.
-####No big deal
+#ZMG-scrapper
+
+####Buscador 'visual' de tweets que contengan palabras definidas en un diccionario
 
 
-En este caso para la cuenta @Trafico_ZMG en búsqueda de información relevante a la movilidad no motorizada
+En este caso para la cuenta @Trafico_ZMG en búsqueda de información sobre incidentes relacionados a ciclistas.
+
+
+##Guía de uso
+
+
+1. Instalar [Node JS](https://nodejs.org/en/)
+
+2. Instalar twitter-screen-scrape
+
+	`npm install twitter-screen-scrape`
+
+3. Ejecutar:
+	
+	`node scraper.js`
